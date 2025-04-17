@@ -1,0 +1,5 @@
+rootProject.name = 'rpc-sample'
+include 'grpc-server'
+include 'common-proto'
+include 'grpc-client'
+

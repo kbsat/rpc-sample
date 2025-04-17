@@ -1,0 +1,8 @@
+server:
+  port: 8081
+
+grpc:
+  client:
+    helloService:
+      address: static://localhost:9090
+      negotiation-type: plaintext
